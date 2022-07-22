@@ -16,9 +16,10 @@
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.269" />
 
     <EditText
         android:id="@+id/userString"
@@ -38,10 +39,10 @@
         android:text="Change text color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.918" />
+        app:layout_constraintVertical_bias="0.716" />
 
     <Button
         android:id="@+id/viewColor"
@@ -50,35 +51,33 @@
         android:text="Change view color"
         app:layout_constraintBottom_toTopOf="@+id/textColor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.934" />
+        app:layout_constraintVertical_bias="0.76" />
 
     <Button
         android:id="@+id/textString"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
         android:text="Change text string"
         app:layout_constraintBottom_toTopOf="@+id/viewColor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.847" />
+        app:layout_constraintVertical_bias="0.679" />
 
     <Button
         android:id="@+id/randButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
         android:text="Random Colors"
         app:layout_constraintBottom_toTopOf="@+id/textString"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.399"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.782" />
+        app:layout_constraintVertical_bias="0.333" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
